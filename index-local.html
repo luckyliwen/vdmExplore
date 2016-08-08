@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>HANA VDM Explore</title>
+		
+		<link rel="stylesheet" href="css/main.css" />
+		   			  	
+		<script id="sap-ui-bootstrap" 
+			src="https://openui5.hana.ondemand.com/resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_bluecrystal"
+			data-sap-ui-xx-bindingSyntax="complex"
+			data-sap-ui-libs="sap.m, sap.ui.commons,sap.ui.table,sap.ui.ux3"
+			>
+		</script>
+		
+		<script  src="he/Application.js"></script>  
+		<script  src="he/cfg/Cfg.js"></script>
+				
+		<script  src="he/util/util.js"></script>
+		<script  src="he/util/io.js"></script>
+		<script  src="he/util/VdmParse.js"></script>
+		<script  src="he/util/Expression.js"></script>
+
+		<script  src="he/uilib/FileChoose.js"></script>
+		<script  src="he/uilib/Message.js"></script>
+		<script  src="he/uilib/HanaTree.js"></script>
+		<script  src="he/uilib/VdmTree.js"></script>
+		<script  src="he/uilib/DepLink.js"></script>
+		<script  src="he/uilib/ExpressionDialog.js"></script>
+		<script  src="he/uilib/InputParamDialog.js"></script>
+		
+
+		<script  src="he/model/Vdm_data.js"></script>
+		<script  src="he/model/VdmMng.js"></script>
+		<script  src="he/model/Vdm.js"></script>
+		<script  src="he/model/TreeNode.js"></script>
+		
+		<script  src="he/view/Helper.js"></script>
+		<script  src="he/view/Main.view.js"></script>
+		<script  src="he/view/Pkg.view.js"></script>
+		<script  src="he/view/UnitTest.view.js"></script>
+		<script  src="he/view/Analyze.view.js"></script>
+		
+		
+		<script  src="he/controller/Main.controller.js"></script>
+		<script  src="he/controller/Pkg.controller.js"></script>
+		<script  src="he/controller/UnitTest.controller.js"></script>
+		<script  src="he/controller/Analyze.controller.js"></script>
+
+		<script>
+			sap.ui.localResources("he");
+			var app = new he.Application({root: 'content'});
+		</script>
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>

@@ -1,0 +1,79 @@
+.MarginTopBottom {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.MarginTop {
+    margin-top: 1em;
+}
+.MarginBottom {
+    margin-bottom: 1em;
+}
+.MarginLeftRight {
+    margin-left: 2em !important;
+    margin-right: 2em !important;
+}
+.MarginLeft_1em {
+    margin-left: 1em !important;
+}
+.MarginLeft_2em {
+    margin-left: 2em !important;
+}
+.PreservedSpace {
+    white-space:pre;
+    !important;
+}
+#AttrTableHeader {
+    white-space:pre;
+    !important;
+}
+/*
+*/
+ #PairedTreeNode {
+    border: 1px dotted red;
+}
+#mainShell-wsBar {
+    text-transform : none !important;
+}
+
+table {
+    border-collapse:collapse;
+}
+
+tbody>tr>td {
+    padding: 2px 1rem;
+    /*margin: 0 0.5rem;*/
+}
+
+.ExpIf {
+    color: Olive;
+    background-color: MistyRose;
+    /*margin: 2rem;*/
+}
+.ExpThen {
+    color: Olive;
+    background-color: Moccasin;
+}
+.ExpElse {
+    color: Olive;
+    background-color: DarkKhaki;
+}
+.ExpKeyword {
+    color: blue;
+}
+.ExpOperator {
+    color: Brown;
+}
+.ExpColumn {
+    color: gray;
+}
+.ExpInputParam {
+    color: gray;
+    font-weight:bold;
+}
+.ExpLogic {
+    color: DarkRed;
+}
+.ExpString {
+    /*color: LimeGreen; use the sap style of Succ*/
+    color: #008a3b; 
+}
